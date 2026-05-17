@@ -33,3 +33,9 @@
 
 <img width="1440" height="809" alt="image" src="https://github.com/user-attachments/assets/2090761a-5f67-42d0-a6bb-7a27d12a27ac" />
 
+
+### Пайплан обработки данных-логов
+
+<img width="1495" height="846" alt="image" src="https://github.com/user-attachments/assets/99064e1f-805e-428a-bde7-6187967e8621" />
+
+
