@@ -38,4 +38,14 @@
 
 <img width="1495" height="846" alt="image" src="https://github.com/user-attachments/assets/99064e1f-805e-428a-bde7-6187967e8621" />
 
+### Создание дашбордов
+
+<img width="1378" height="608" alt="image" src="https://github.com/user-attachments/assets/7003b0c1-2106-4899-acfa-6ef71d09d341" />
+
+### Оповещения
+
+<img width="640" height="785" alt="image" src="https://github.com/user-attachments/assets/242132e3-65b0-453e-9cdf-8204a972cd64" />
+
+
+
 
