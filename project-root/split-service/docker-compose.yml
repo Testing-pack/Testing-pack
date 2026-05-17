@@ -1,0 +1,16 @@
+services:
+  split-db:
+    image: postgres:16
+    container_name: split_db
+    environment:
+      POSTGRES_USER: split_user
+      POSTGRES_PASSWORD: split_pass
+      POSTGRES_DB: split_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - split_db_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  split_db_data:

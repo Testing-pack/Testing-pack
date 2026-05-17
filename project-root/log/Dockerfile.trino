@@ -1,0 +1,13 @@
+FROM trinodb/trino:latest
+
+USER root
+
+# Скачиваем JDBC драйвер PostgreSQL
+ADD https://jdbc.postgresql.org/download/postgresql-42.7.3.jar /usr/lib/trino/plugin/iceberg/
+RUN chown trino:trino /usr/lib/trino/plugin/iceberg/postgresql-42.7.3.jar
+
+# --- ДОБАВЛЕНО: Создаем папку для данных и даем права ---
+RUN mkdir -p /data/trino && chown -R trino:trino /data/trino
+# -------------------------------------------------------
+
+USER trino
