@@ -15,10 +15,6 @@
 
 <img width="1180" height="903" alt="image" src="https://github.com/user-attachments/assets/00f70c30-f34f-4a5e-857a-45c7461ce5a2" />
 <img width="1180" height="222" alt="image" src="https://github.com/user-attachments/assets/b080e6a8-b0af-4e88-93f3-d8328ea8cd59" />
-<img width="1440" height="809" alt="image" src="https://github.com/user-attachments/assets/2090761a-5f67-42d0-a6bb-7a27d12a27ac" />
-
-
-
 
 ### Установка
 1. Клонируем репозиторий
@@ -29,4 +25,10 @@
 6. Там же python main.py
 7. docker-compose up -d (для split-service)
 8. Там же python main.py
-9. В директории frontend вводим npm start 
+9. В директории frontend вводим npm start
+
+
+### Основные технологии
+
+<img width="1440" height="809" alt="image" src="https://github.com/user-attachments/assets/2090761a-5f67-42d0-a6bb-7a27d12a27ac" />
+
